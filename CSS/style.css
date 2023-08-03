@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-family: 'heebo', sans-serif;
+}
+
+header .logo {
+    display: inline-block;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header nav ul il {
+    display: inline-block;
+}
