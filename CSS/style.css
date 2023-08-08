@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Heebo', sans-serif;
-    margin-top: 80px;
+    padding-top:  80px;
 }
 
 .container {
@@ -24,6 +24,7 @@ header {
     width: 100%;
     left: 0;
     z-index: 1;
+    cursor: pointer;
 }
 
 header .container {
@@ -31,11 +32,13 @@ header .container {
     align-items: center;
     justify-content: space-between;
     height: 100%;
+    
 }
 
 header .logo {
     display: inline-block;
     font-size: 27px;
+    cursor: none;
 }
 
 header .logo .blue-dot{
@@ -62,6 +65,12 @@ header nav ul li a {
     font-size: 15px;
     letter-spacing: 0.37;
     margin-right: 24px;
+    text-decoration: none;
+        
+}
+
+header nav ul li a:hover{
+    color: #3E50E5;
 }
 
 header nav ul li:last-of-type a {
@@ -130,6 +139,14 @@ section.hero img {
     line-height: 24px;
     text-align: center;
     border: none;
+    cursor: pointer;
+}
+
+.hero-content button:hover{
+    color: #3E50E5;
+    background-color: #fff;
+    border: 1px solid #3E50E5;
+
 }
 
 section.best-sellers{
@@ -170,11 +187,18 @@ section.best-sellers .product-slider .product{
     text-align: center;
     margin: 0 8px;    
     position: relative;
-    padding: 20px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    cursor: pointer;
         
+}
+
+section.best-sellers .product-slider .product:hover .product-info button{
+    background-color: #3e50e5;
+    color: white;
+    border: 1px solid #3e50e5;
 }
 
 section.best-sellers .product-slider .product img {
@@ -292,6 +316,7 @@ section.best-sellers .product .product-slider .product-info button{
         letter-spacing: 0.35px;
         padding-left: 22px;
         line-height: 21px;
+        border-right: none;
 
 
     }
@@ -309,12 +334,17 @@ section.best-sellers .product .product-slider .product-info button{
         text-transform: uppercase;
         letter-spacing: 0.35;
         line-height: 21px;
+        cursor: pointer;
 
     }
 
-    footer{
-        text-align: center;
+    section.newsletter form button:hover{
+        color: #3E50E5;
+        background-color: #fff;
+        border: 1px solid #3E50E5;
+        border: 1px solid #3e3e3e;
     }
+
 
     footer .botton-nav{
         padding: 60px 0;
@@ -346,8 +376,14 @@ section.best-sellers .product .product-slider .product-info button{
         margin-top: 0;
         margin-bottom: 10px;    
         text-decoration: none;  
+        display: inline-block;
      }
 
+     footer .botton-nav ul li a:hover{
+        color: #3E50E5;
+     }
+
+     
      footer .botton-nav ul{
         list-style: none;
      }
