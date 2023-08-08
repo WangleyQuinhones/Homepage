@@ -432,6 +432,27 @@ section.best-sellers .product .product-slider .product-info  button{
         height: 70px;
     }
     
+    .hero-content h1{
+        line-height: 50px;
+        letter-spacing: 1.1px;
+        margin-bottom: 12px;
+        font-size: 44px;
+    }
+    
+    .hero-content p{
+        max-width: 518px;
+        line-height: 18px;
+        letter-spacing: 0.45px;
+        font-size: 26px;
+        margin-bottom: 12px;
+    }
+    
+    .hero-content button{    
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        line-height: 21px;
+        
+    }
 }
 
    /* tablet*/
@@ -456,6 +477,27 @@ section.best-sellers .product .product-slider .product-info  button{
         display: inline-block;
         
     }
+
+    .hero-content h1{
+        line-height: 46px;
+        letter-spacing: 1px;
+        font-size: 40px;
+    }
+    
+    .hero-content p{
+        line-height: 16px;
+        letter-spacing: 0.4px;
+        font-size: 24px;
+       
+    }
+    
+    .hero-content button{    
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        line-height: 21px;
+        width: 196px;
+        
+    }
     
 }
    /* Mobile*/
@@ -469,6 +511,34 @@ section.best-sellers .product .product-slider .product-info  button{
     header .logo .blue-dot{
         width: 7px;
         height: 7px;
+    }
+
+    .hero-content {
+        position: static;
+    }
+
+    .hero-content h1{
+        color: #000;
+        line-height: 32px;
+        letter-spacing: 0.8px;
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 32px;
+        margin-top: 27px;
+    }
+    
+    .hero-content p{
+       display: none;
+       
+    }
+    
+    .hero-content button{    
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        line-height: 21px;
+        width: 196px;
+        margin: auto;
+        
     }
 
     
