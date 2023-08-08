@@ -5,7 +5,8 @@ body {
 }
 
 .container {
-    max-width: 960px;
+    max-width: 1440px;
+    max-width: 90%;
     margin: auto;
     padding: 0 16px;
 }
@@ -58,6 +59,17 @@ header nav {
 
 header nav ul li {
     display: inline-block;
+}
+header nav ul li.menu-icon {
+    display: none;
+    
+}
+
+header nav ul li.menu-icon img {
+    vertical-align: middle;
+    width: 20px;
+    height: auto;
+    
 }
 
 header nav ul li a {
@@ -246,19 +258,22 @@ section.best-sellers .product-slider .product .product-info .title{
     margin-top: 0;
 }
 
-section.best-sellers .product-slider .product-info .price{
+section.best-sellers .product-slider .product .product-info .price{
     font-size: 28px;
     font-weight: bold;
     letter-spacing: 0.7px;
     line-height: 30px;
     margin-bottom: 16px;
     margin-top: 0;
+    
 }
-span.original-price{
+
+section.best-sellers .product-slider .product .product-info .price .original-price{
     color: #EC1C1C;
 }
 
-section.best-sellers .product .product-slider .product-info button{
+
+section.best-sellers .product .product-slider .product-info  button{
     height: 50px;
     background-color: white;
     width: 219.5;
@@ -398,3 +413,64 @@ section.best-sellers .product .product-slider .product-info button{
         color: #fff;
        
      }
+
+      /* CSS Media Queris */
+
+     /* Desktop*/
+@media screen and (max-width: 1440px) {
+    
+    .container {
+        width: 1180px;
+        max-width: 90%;
+    }
+
+    body {
+        padding-top:  70px;
+    }
+
+    header {
+        height: 70px;
+    }
+    
+}
+
+   /* tablet*/
+@media screen and (max-width: 960px) {
+    
+    .container {
+        width: 92%;
+        
+    }
+
+    header .logo {
+        font-size: 24px;
+        
+    }
+
+    header nav ul li {
+        display: none;
+        
+    }
+    
+    header nav ul li.menu-icon  {
+        display: inline-block;
+        
+    }
+    
+}
+   /* Mobile*/
+@media screen and (max-width: 576px) {
+   
+    header .logo {
+        
+        font-size: 18px;
+    }
+
+    header .logo .blue-dot{
+        width: 7px;
+        height: 7px;
+    }
+
+    
+    
+}
