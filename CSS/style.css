@@ -3,19 +3,16 @@ body {
     font-family: 'Heebo', sans-serif;
     padding-top:  80px;
 }
-
 .container {
     max-width: 1440px;
     max-width: 90%;
     margin: auto;
     padding: 0 16px;
 }
-
 ul {
     margin: 0;
     padding: 0;
 }
-
 header {
     background-color: #fff;
     box-shadow: 0 1px 6px 0 rgba(0,0,0,0.15);
@@ -27,77 +24,59 @@ header {
     z-index: 1;
     cursor: pointer;
 }
-
 header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100%;
-    
+    height: 100%;    
 }
-
 header .logo {
     display: inline-block;
     font-size: 27px;
     cursor: none;
 }
-
 header .logo .blue-dot{
     width: 10px;
     background-color: #3e50e5;
     height: 10px;
     display: inline-block;
     vertical-align: middle;
-    border-radius: 6px;
-    margin: 6px;
+    border-radius: 6px;    
 }
-
 header nav {
     display: inline-block;
 }
-
-
 header nav ul li {
     display: inline-block;
 }
 header nav ul li.menu-icon {
-    display: none;
-    
+    display: none;    
 }
-
 header nav ul li.menu-icon img {
     vertical-align: middle;
-    width: 20px;
-    height: auto;
-    
+    width: 24px;
+    height: auto;    
 }
-
 header nav ul li a {
     color: #3e3e3e;
     font-size: 15px;
     letter-spacing: 0.37;
     margin-right: 24px;
-    text-decoration: none;
-        
+    text-decoration: none;        
 }
-
 header nav ul li a:hover{
     color: #3E50E5;
 }
-
 header nav ul li:last-of-type a {
-    margin-right: 1;
+    margin-right: 0;
 }
-
 section.hero {
     position: relative;
 }
-
 section.hero img {
     width: 100%;
     height: auto;
 }
-
 .hero-content {
     position: absolute;
     top: 0;
@@ -107,14 +86,12 @@ section.hero img {
     height: 100%;
     z-index: 0;
 }
-
 .hero-content .container {
     display: flex;
     justify-content: center;
     flex-direction: column;
     height: 100%;
 }
-
 .hero-content h1{
     max-width: 495px;
     line-height: 56px;
@@ -126,7 +103,6 @@ section.hero img {
     margin-top: 0;
     font-weight: normal;
 }
-
 .hero-content p{
     max-width: 518px;
     line-height: 28px;
@@ -137,7 +113,6 @@ section.hero img {
     margin-top: 0;
     margin-bottom: 21px;
 }
-
 .hero-content button{
     height: 50px;
     width: 220px;
@@ -153,18 +128,14 @@ section.hero img {
     border: none;
     cursor: pointer;
 }
-
 .hero-content button:hover{
     color: #3E50E5;
     background-color: #fff;
     border: 1px solid #3E50E5;
-
 }
-
 section.best-sellers{
     padding-top: 80px;
 }
-
 section.best-sellers h2{
     text-align: center;
     font-size: 34px;
@@ -173,25 +144,19 @@ section.best-sellers h2{
     font-weight: normal;
     margin: 0 0 14px 0;
 }
-
 section.best-sellers .container{
     display: flex;
     justify-content: space-around;
-    padding: 0 8px;
-    
+    padding: 0 8px;    
 }
-
 section.best-sellers hr{
     border: none;
-    border-top: 5px solid blue;
-    width: 80px;
-
+    border-top: 5px solid #67F11D;
+    width: 66px;
 }
-
 section.best-sellers .product-slider{
     margin-top: 76px;
 }
-
 section.best-sellers .product-slider .product{
     border-radius: 8px;
     border: 1px solid #ddd;
@@ -203,23 +168,19 @@ section.best-sellers .product-slider .product{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    cursor: pointer;
-        
+    cursor: pointer;        
 }
-
 section.best-sellers .product-slider .product:hover .product-info button{
     background-color: #3e50e5;
     color: white;
     border: 1px solid #3e50e5;
 }
-
 section.best-sellers .product-slider .product img {
     max-width: 100%;
 }
-
 section.best-sellers .product-slider .product.new::before{
     content: "New";
-    background: #EC1C1C;
+    background-color: #EC1C1C;
     position: absolute;
     top: 12px;
     right: 12px;
@@ -231,13 +192,11 @@ section.best-sellers .product-slider .product.new::before{
     text-align: center;
     padding: 4px 15px;
     border-radius: 40px;
-
+    background-color: red;
 }
-
 section.best-sellers .product-slider .product .product-info{
     margin-top: 50px;
 }
-
 section.best-sellers .product-slider .product .product-info .categories{
     color:#3E50E5;
     font-weight: normal;
@@ -246,9 +205,7 @@ section.best-sellers .product-slider .product .product-info .categories{
     margin-bottom: 8px;
     line-height: 30px;
     margin-top: 0;
-
 }
-
 section.best-sellers .product-slider .product .product-info .title{
     font-size: 20px;
     letter-spacing: 0.5px;
@@ -257,22 +214,17 @@ section.best-sellers .product-slider .product .product-info .title{
     font-weight: normal;
     margin-top: 0;
 }
-
 section.best-sellers .product-slider .product .product-info .price{
     font-size: 28px;
     font-weight: bold;
     letter-spacing: 0.7px;
     line-height: 30px;
     margin-bottom: 16px;
-    margin-top: 0;
-    
+    margin-top: 0;    
 }
-
 section.best-sellers .product-slider .product .product-info .price .original-price{
     color: #EC1C1C;
 }
-
-
 section.best-sellers .product .product-slider .product-info  button{
     height: 50px;
     background-color: white;
@@ -285,16 +237,16 @@ section.best-sellers .product .product-slider .product-info  button{
     letter-spacing: 0.4px ;
     line-height: 24px;
     }
-
-    section.newsletter{
-        background-color:rgba(158, 155, 155, 0.18);
-        padding: 72px 0;
-        margin: 80px auto;
-        text-align: center;
-        max-width: 700px;
-
+    section.best-sellers .product-slider .product:hover .product-info button {
+        background-color: #3E50E5;
+        border: 1px solid #3E50E5;
+        color: white;
     }
-
+    section.best-sellers .product-slider .product:hover .product-info button {
+        background-color: #3E50E5;
+        border: 1px solid #3E50E5;
+        color: white;
+    }
     section.newsletter h3{
         font-size: 24px;
         letter-spacing: 0.6px;
@@ -302,9 +254,7 @@ section.best-sellers .product .product-slider .product-info  button{
         font-weight: normal;
         margin-bottom: 10px;
         margin-top: 0;
-
     }
-
     section.newsletter p{
         font-size: 16px;
         letter-spacing: 0.4px;
@@ -312,12 +262,10 @@ section.best-sellers .product .product-slider .product-info  button{
         margin-top: 0;
         margin-bottom: 20px;
     }
-
     section.newsletter form{
         display: flex;
         justify-content: center;
     }
-
     section.newsletter form input{
         height: 50px;
         width: 326px;
@@ -332,10 +280,7 @@ section.best-sellers .product .product-slider .product-info  button{
         padding-left: 22px;
         line-height: 21px;
         border-right: none;
-
-
     }
-
     section.newsletter form button{
         cursor: pointer;
         height: 50px;
@@ -350,22 +295,17 @@ section.best-sellers .product .product-slider .product-info  button{
         letter-spacing: 0.35;
         line-height: 21px;
         cursor: pointer;
-
     }
-
     section.newsletter form button:hover{
         color: #3E50E5;
         background-color: #fff;
         border: 1px solid #3E50E5;
         border: 1px solid #3e3e3e;
     }
-
-
-    footer .botton-nav{
+    footer .button-nav{
         padding: 60px 0;
         background-color: #3e3e3e;
-    }
-    
+    }    
     footer .copyright-text{
         color: white;
         background-color: #2b2b2b;
@@ -377,13 +317,13 @@ section.best-sellers .product .product-slider .product-info  button{
         letter-spacing: 0.4px;
         line-height: 22px;
     }
-     footer .botton-nav .container{
-        max-width: 700px;
+     footer .button-nav .container{
+        max-width: 955px;
         display: flex;
         justify-content: space-between;
      }
 
-     footer .botton-nav ul li a{
+     footer .button-nav ul li a{
         color: #e0e0e0;
         font-size: 16px;
         letter-spacing: 0.4px;
@@ -394,16 +334,16 @@ section.best-sellers .product .product-slider .product-info  button{
         display: inline-block;
      }
 
-     footer .botton-nav ul li a:hover{
+     footer .button-nav ul li a:hover{
         color: #3E50E5;
      }
 
      
-     footer .botton-nav ul{
+     footer .button-nav ul{
         list-style: none;
      }
 
-     footer .botton-nav ul li.list-title{
+     footer .button-nav ul li.list-title{
         font-size: 20px;
         font-weight: 700;
         letter-spacing: 0.5px;
@@ -453,6 +393,115 @@ section.best-sellers .product .product-slider .product-info  button{
         line-height: 21px;
         
     }
+    section.best-sellers{
+        padding-top: 70px;
+    } 
+
+    section.best-sellers h2{
+        line-height: 38px;
+        margin: 0 0 16px 0;
+    }
+
+    section.best-sellers .product-slider {
+        margin-top: 70px;
+    }
+
+    section.best-sellers .product-slider .product .product-info .categories{
+        font-size: 12px;
+        letter-spacing: 0.3px;
+        line-height: 30px;
+    }
+
+    section.best-sellers .product-slider .product .product-info .title {
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        line-height: 26px;
+        
+    }
+
+    section.best-sellers .product-slider .product .product-info .price {
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 0.6px;
+        margin-bottom: 12px;
+    }
+
+    section.best-sellers .product-slider .product .product-info .price .original-price {
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        line-height: 30px;
+        display: block;
+        line-height: 16px;
+    }
+
+    section.best-sellers .product-slider .product .product-info button {
+        height: 40px;
+        width: 180px;
+        letter-spacing: 0.35px;
+        line-height: 21px;
+    }
+
+    section.newsletter {
+        width: 881px;
+        max-width: 100%;
+        padding: 50px 0;
+        margin: 70px auto;
+    }
+
+    section.newsletter h3 {
+        font-size: 22px;
+        letter-spacing: 0.55px;
+        line-height: 42px;
+    }
+
+    section.newsletter p {
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        line-height: 42px;
+        margin-bottom: 15px;
+    }
+
+    section.newsletter form input {
+        font-size: 12px;
+        letter-spacing: 0.3px;
+        line-height: 18px;
+    }
+
+    section.newsletter form button {
+        font-size: 12px;
+        letter-spacing: 0.3px;
+        line-height: 18px;
+    }
+
+    footer .bottom-nav {
+        padding: 50px 0;
+    }
+    
+    footer .bottom-nav .container {
+        max-width: 90%;
+    }
+    
+    footer .bottom-nav ul li a {
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        line-height: 22px;
+    }
+    
+    footer .bottom-nav ul li.list-title {
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        line-height: 26px;
+        margin-bottom: 12px;
+    }
+    
+    footer .copyright-text {
+        height: 50px;
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        line-height: 22px;
+        text-align: center;
+    }
+    
 }
 
    /* tablet*/
@@ -498,6 +547,100 @@ section.best-sellers .product .product-slider .product-info  button{
         width: 196px;
         
     }
+
+    section.best-sellers {
+        padding-top: 50px;
+    }
+    
+    section.best-sellers h2 {
+        font-size: 28px;
+        letter-spacing: 0.7px;
+        line-height: 38px;
+        margin: 0 0 12px 0;
+    }
+
+    section.best-sellers .product-slider {
+        margin-top: 48px;
+    }
+    section.best-sellers .container{
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    section.best-sellers .product-slider .product{
+        min-width: 220px;
+        margin: 17px 8px;
+    }
+    
+    section.best-sellers .product-slider .product .product-info .categories {
+        font-size: 12px;
+        letter-spacing: 0.3px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    
+    section.best-sellers .product-slider .product .product-info .title {
+        font-size: 13px;
+        letter-spacing: 0.5px;
+        line-height: 18px;
+        margin-bottom: 8px;
+    }
+    
+    section.best-sellers .product-slider .product .product-info .price {
+        font-size: 16px;
+        letter-spacing: 0.4px;
+        line-height: 30px;
+    }
+    
+    section.best-sellers .product-slider .product .product-info .price .original-price {
+        font-size: 14px;
+        letter-spacing: 0.23px;
+        line-height: 30px;
+        display: block;
+        line-height: 14px;
+    }
+    
+    section.best-sellers .product-slider .product .product-info button {
+        height: 36px;
+        width: 193px;
+        font-size: 12px;
+        letter-spacing: 0.3px;
+        line-height: 18px;
+    }
+
+    section.best-sellers .product-slider .product.new::before {
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.27px;
+        padding: 0px 12px;
+    }
+
+    section.newsletter {
+        width: 100%;
+        max-width: 100%;
+        padding: 50px 0;
+        margin: 50px auto;
+    }
+    
+    section.newsletter h3 {
+        font-size: 22px;
+        letter-spacing: 0.55px;
+        line-height: 42px;
+    }
+    
+    section.newsletter p {
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        line-height: 42px;
+    }
+
+    footer .bottom-nav {
+        padding: 50px 0;
+    }
+    
+    footer .bottom-nav .container {
+        max-width: 90%;
+    }
     
 }
    /* Mobile*/
@@ -541,6 +684,64 @@ section.best-sellers .product .product-slider .product-info  button{
         
     }
 
+    section.best-sellers {
+        padding-top: 64px;
+    }
     
+    section.best-sellers h2 {
+        font-size: 24px;
+        letter-spacing: 0.6px;
+        line-height: 38px;
+        margin: 0 0 14px 0;
+    }
+
+    section.best-sellers hr {
+        border-top: 4px solid #67F11D;
+        width: 40px;
+    }
+
+    section.best-sellers .product-slider {
+        margin-top: 42px;
+    }
+    section.best-sellers .product-slider .product{
+        width: 82%;
+        max-width: 360px;
+    }
+    
+    section.best-sellers .product-slider .product .product-info .categories {
+        margin-bottom: 7px;
+    }
+    
+    section.best-sellers .product-slider .product .product-info .title {
+        font-size: 14px;
+        letter-spacing: 0.54px;
+        line-height: 18px;
+    }
+    
+    section.best-sellers .product-slider .product .product-info .price {
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+    }
+    
+    section.best-sellers .product-slider .product .product-info .price .original-price {
+        font-size: 11px;
+        letter-spacing: 0.28px;
+        line-height: 20px;
+    }
+    
+    section.best-sellers .product-slider .product .product-info button {
+        height: 36px;
+        width: 146px;
+        font-size: 12px;
+        letter-spacing: 0.3px;
+        line-height: 18px;
+    }
+
+    section.newsletter {
+        padding: 44px 0;
+        margin: 100px auto;
+    }
+  
     
 }
