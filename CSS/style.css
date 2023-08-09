@@ -427,7 +427,7 @@ section.best-sellers .product .product-slider .product-info  button{
     }
 
     section.best-sellers .product-slider .product .product-info .price .original-price {
-        font-size: 14px;
+        font-size: 20px;
         letter-spacing: 0.35px;
         line-height: 30px;
         display: block;
@@ -689,10 +689,10 @@ section.best-sellers .product .product-slider .product-info  button{
     }
     
     section.best-sellers h2 {
-        font-size: 24px;
+        font-size: 36px;
         letter-spacing: 0.6px;
         line-height: 38px;
-        margin: 0 0 14px 0;
+        margin: 0 0 16px 0;
     }
 
     section.best-sellers hr {
@@ -740,8 +740,30 @@ section.best-sellers .product .product-slider .product-info  button{
 
     section.newsletter {
         padding: 44px 0;
-        margin: 100px auto;
+        margin: 60px auto;
     }
+    section.newsletter form{
+        display: flex;
+        justify-content: center;
+    }
+    section.newsletter form input{        
+        max-width: 65%;       
+    }
+    section.newsletter form button{        
+        max-width: 35%;       
+    }
+    footer .button-nav .container{
+       align-items: center;
+       flex-direction: column;
+    }
+    footer .button-nav ul {
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    footer .button-nav ul:last-of-type{
+        margin-bottom: 0;
+    }
+    
   
     
 }
